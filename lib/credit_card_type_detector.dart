@@ -21,8 +21,13 @@ enum CreditCardType {
 /// i.e. ['51', '55'] represents the range of cards starting with '51' to those starting with '55'
 const Map<CreditCardType, Set<List<String>>> cardNumPatterns = {
   CreditCardType.rupay: {
-    ['60', '652', '81', '82', '508'],
-    ['3538', '3561']
+    ['60'],
+    ['652'],
+    ['81'],
+    ['82'],
+    ['508'],
+    ['3538'],
+    ['3561']
   },
   CreditCardType.visa: {
     ['4'],
